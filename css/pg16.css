@@ -13,22 +13,22 @@
   /* Style the button and place it in the middle of the container/image */
   .container .btn {
     position: absolute;
-    top:43%;
-    left: 62.5%;
+    top:51%;
+    left:77%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     /* background-color: rgb(206, 15, 15); */
     opacity: 0;
-    color: white;
+    color: rgb(255, 0, 0);
     font-size: 16px;
-    padding: 6px 18px;
+    padding: 17px 31px;
     border: none;
     cursor: default;
     border-radius: 5px;
   }
   
   .container .btn:hover {
-    opacity: 0.5;
+    opacity: 0;
   }
   h1{
       text-align: center;
