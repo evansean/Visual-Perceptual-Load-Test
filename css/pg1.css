@@ -14,7 +14,7 @@
   .container .btn {
     position: absolute;
     top:8%;
-    left: 175.5%;
+    left: 173%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     /* background-color: rgb(206, 15, 15); */

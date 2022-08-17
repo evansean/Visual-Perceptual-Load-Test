@@ -14,14 +14,14 @@
   .container .btn {
     position: absolute;
     top:89%;
-    left:174%;
+    left:171%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     /* background-color: rgb(206, 15, 15); */
     opacity: 0;
     color: rgb(255, 0, 0);
     font-size: 16px;
-    padding: 17px 31px;
+    padding: 17px 10px;
     border: none;
     cursor: default;
     border-radius: 5px;
