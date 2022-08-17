@@ -21,6 +21,9 @@ window.onload=function(){
     }
   
 }
+window.onbeforeunload = function() {
+    return "Do you want to exit this page?";
+  };
 
 function lowAvg(){
     var sum=0;
