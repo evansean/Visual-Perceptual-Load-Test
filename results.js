@@ -54,7 +54,16 @@ function highAvg(){
 
 function totalTime(){
     var sum=0;
-    for(i=0;i<23;i++){
-        sum += parseFloat(sessionStorage.getItem(i));
-    }
+    sum= parseFloat(sessionStorage.getItem(0)) + parseFloat(sessionStorage.getItem(1)) +
+    parseFloat(sessionStorage.getItem(2)) + parseFloat(sessionStorage.getItem(3)) +
+    parseFloat(sessionStorage.getItem(4)) + parseFloat(sessionStorage.getItem(5)) +
+    parseFloat(sessionStorage.getItem(6)) + parseFloat(sessionStorage.getItem(7))+ parseFloat(sessionStorage.getItem(8)) +
+    parseFloat(sessionStorage.getItem(10)) + parseFloat(sessionStorage.getItem(9)) +
+    parseFloat(sessionStorage.getItem(12)) + parseFloat(sessionStorage.getItem(11)) +
+    parseFloat(sessionStorage.getItem(13)) + parseFloat(sessionStorage.getItem(14))+ parseFloat(sessionStorage.getItem(15)) +
+    parseFloat(sessionStorage.getItem(16)) + parseFloat(sessionStorage.getItem(17)) +
+    parseFloat(sessionStorage.getItem(18)) + parseFloat(sessionStorage.getItem(19)) +
+    parseFloat(sessionStorage.getItem(21)) + parseFloat(sessionStorage.getItem(20))+ parseFloat(sessionStorage.getItem(22)) +
+    parseFloat(sessionStorage.getItem(23)); 
+    return sum;
 }
