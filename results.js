@@ -65,5 +65,5 @@ function totalTime(){
     parseFloat(sessionStorage.getItem(18)) + parseFloat(sessionStorage.getItem(19)) +
     parseFloat(sessionStorage.getItem(21)) + parseFloat(sessionStorage.getItem(20))+ parseFloat(sessionStorage.getItem(22)) +
     parseFloat(sessionStorage.getItem(23)); 
-    return sum;
+    return sum.toFixed(2);
 }
