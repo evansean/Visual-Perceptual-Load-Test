@@ -24,30 +24,30 @@ window.onload=function(){
 
 function lowAvg(){
     var sum=0;
-    sum= sessionStorage.getItem(0) + sessionStorage.getItem(4) +
-    sessionStorage.getItem(5) + sessionStorage.getItem(10) +
-    sessionStorage.getItem(14) + sessionStorage.getItem(15) +
-    sessionStorage.getItem(17) + sessionStorage.getItem(19);
+    sum= parseFloat(sessionStorage.getItem(0)) + parseFloat(sessionStorage.getItem(4)) +
+    parseFloat(sessionStorage.getItem(5)) + parseFloat(sessionStorage.getItem(10)) +
+    parseFloat(sessionStorage.getItem(14)) + parseFloat(sessionStorage.getItem(15)) +
+    parseFloat(sessionStorage.getItem(17)) + parseFloat(sessionStorage.getItem(19));
     var avg = sum/8;
     return avg.toFixed(2);
 }
 
 function medAvg(){
     var sum=0;
-    sum= sessionStorage.getItem(1) + sessionStorage.getItem(7) +
-    sessionStorage.getItem(8) + sessionStorage.getItem(11) +
-    sessionStorage.getItem(13) + sessionStorage.getItem(18) +
-    sessionStorage.getItem(20) + sessionStorage.getItem(22);
+    sum= parseFloat(sessionStorage.getItem(1)) + parseFloat(sessionStorage.getItem(7)) +
+    parseFloat(sessionStorage.getItem(8)) + parseFloat(sessionStorage.getItem(11)) +
+    parseFloat(sessionStorage.getItem(13)) + parseFloat(sessionStorage.getItem(18)) +
+    parseFloat(sessionStorage.getItem(20)) + parseFloat(sessionStorage.getItem(22));
     var avg = sum/8;
     return avg.toFixed(2);
 }
 
 function highAvg(){
     var sum=0;
-    sum= sessionStorage.getItem(2) + sessionStorage.getItem(3) +
-    sessionStorage.getItem(6) + sessionStorage.getItem(9) +
-    sessionStorage.getItem(12) + sessionStorage.getItem(16) +
-    sessionStorage.getItem(21) + sessionStorage.getItem(23);
+    sum= parseFloat(sessionStorage.getItem(2)) + parseFloat(sessionStorage.getItem(3)) +
+    parseFloat(sessionStorage.getItem(6)) + parseFloat(sessionStorage.getItem(9)) +
+    parseFloat(sessionStorage.getItem(12)) + parseFloat(sessionStorage.getItem(16)) +
+    parseFloat(sessionStorage.getItem(21)) + parseFloat(sessionStorage.getItem(23));
     var avg = sum/8;
     return avg.toFixed(2);
 }
@@ -55,6 +55,6 @@ function highAvg(){
 function totalTime(){
     var sum=0;
     for(i=0;i<23;i++){
-        sum += sessionStorage.getItem(i);
+        sum += parseFloat(sessionStorage.getItem(i));
     }
 }

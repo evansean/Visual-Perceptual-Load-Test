@@ -14,12 +14,11 @@ find.onclick = function(){
 
 window.onload=function(){
     start = Date.now();
-    results.innerHTML = test;
     console.log(sessionStorage.getItem('name'));
     console.log(sessionStorage.getItem('age'));
     console.log(sessionStorage.getItem('sex'));
 
-    for(i=0;i<23;i++){
+    for(i=0;i<24;i++){
         console.log(sessionStorage.getItem(i));
     }
   
